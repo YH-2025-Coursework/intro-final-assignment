@@ -7,3 +7,7 @@ Molnet ser ut som ett väldigt aktuellt koncept just nu. Det är ganska flexibel
 För att jobba i ett team, behöver man inte bara tekniska färdigheter utan också självdisciplin och kommunikationsförmåga. Det är viktigt att hålla deadlines när det gäller sin egen del av arbetet, och kanske hålla koll på hur det går för andra (utan att mikrohantera). I samarbete framträder konflikter ofta, och det är viktigt att kunna hantera sina känslor kring det och navigera i och lösa heta situationer även om andra fastnar i konflikten.
 
 För att sammanfatta, det mest intressanta i kursen för mig var att få en bättre bild på vad en utvecklare gör förutom att sitta i IDE och skriva kod. Jag känner mig lite mer "job-ready" nu, även om det bara var de första tre veckorna.
+
+***
+
+Min workflowfil ci.yml kör en lintkontroll av alla YAML-filer i workflows-mappen vid varje push, som en förenklad imitation av en riktig CI-process.
