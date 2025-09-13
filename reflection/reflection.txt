@@ -1,0 +1,13 @@
+Innan kursen visste jag hur man kan arbeta med data i Python, skapa enklare skript, hämta data från ett API, och skapa enklare webbsidor (HTML, CSS och JavaScript). I kursen lärde jag mig om saker som ligger utanför själva kodskrivningen, som till exempel CI/CD-pipelines, och fick praktik med att använda git.
+
+DevOps som ett koncept ligger nära CI/CD och handlar om att köra utveckling kontinuerligt. Om jag ville förklara vad det är till min kompis (eller min mamma) skulle jag säga att det är som att renovera en stor mataffär lite varje natt för att inte påverka kunder. Då behöver man inte stänga mataffären, och varje dag när kunder kommer kan de kanske märka att några saker ändrades, men allt fungerar ändå.
+
+Molnet ser ut som ett väldigt aktuellt koncept just nu. Det är ganska flexibelt beroende på vad man vill ha och kan vara mycket kraftfullt. Det finns många fördelar med att använda molnet jämfört med att köra allt lokalt: säkerhet, tillgänglighet, kostnader. För mig är det svåraste med molnet att sätta behörigheter. Det finns så många policys för det, det är inte konstigt att det finns en hel specialisering inom IAM för att hantera det på bästa sätt.
+
+För att jobba i ett team, behöver man inte bara tekniska färdigheter utan också självdisciplin och kommunikationsförmåga. Det är viktigt att hålla deadlines när det gäller sin egen del av arbetet, och kanske hålla koll på hur det går för andra (utan att mikrohantera). I samarbete framträder konflikter ofta, och det är viktigt att kunna hantera sina känslor kring det och navigera i och lösa heta situationer även om andra fastnar i konflikten.
+
+För att sammanfatta, det mest intressanta i kursen för mig var att få en bättre bild på vad en utvecklare gör förutom att sitta i IDE och skriva kod. Jag känner mig lite mer "job-ready" nu, även om det bara var de första tre veckorna.
+
+***
+
+Min workflowfil ci.yml kör en lintkontroll av alla YAML-filer i workflows-mappen vid varje push, som en förenklad imitation av en riktig CI-process.
