@@ -1,0 +1,12 @@
+name: CI Check
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Validate workflow YAML
+        run: yamllint .github/workflows --no-warnings && echo "YAML check passed!"
