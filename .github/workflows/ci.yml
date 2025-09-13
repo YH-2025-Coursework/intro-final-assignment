@@ -9,4 +9,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Validate workflow YAML
-        run: yamllint .github/workflows --no-warnings && echo "YAML check passed!"
+        run: yamllint .github/workflows --no-warnings
+
+      - name: Confirmation
+        run: echo "YAML check passed!"
